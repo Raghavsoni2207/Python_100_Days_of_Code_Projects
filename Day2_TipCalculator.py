@@ -16,6 +16,8 @@ total_people = int(input("How many people to split the bill? "))
 amount_per_person = (bill_amount+tip)/total_people
 # Rounding the final amount to 2 decimal place
 round_amount = round(amount_per_person, 2)
+# Formatting the amount at 2 decimal place
+final_amount = "{:.2f}".format(amount_per_person)
 
 # Display amount one should pay
-print(f"Each person should pay: ${round_amount}")
+print(f"Each person should pay: ${final_amount}")
