@@ -1,0 +1,8 @@
+Steps to build the snake game :-
+1. Create a snake body.
+2. How to move the snake
+3. How to control the snake.
+4. Detect collision with food.
+5. Create a scoreboard.
+6. Detect collision with wall (Game over!).
+7. Detect collision with tail (Game over!).
