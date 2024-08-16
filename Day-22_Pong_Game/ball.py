@@ -2,6 +2,7 @@ from turtle import Turtle
 import time
 
 
+# 4. create the ball and make it move
 class Ball(Turtle):
     def __init__(self):
         super().__init__()

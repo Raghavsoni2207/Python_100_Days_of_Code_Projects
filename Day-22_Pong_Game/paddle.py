@@ -1,6 +1,7 @@
 from turtle import Turtle
 
 
+# 2. creating and moving paddles
 class Paddle(Turtle):
     def __init__(self, position):
         super().__init__()
