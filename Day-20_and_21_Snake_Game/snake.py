@@ -19,6 +19,13 @@ class Snake:
         for position in STARTING_POSITIONS:
             self.add_body(position)
 
+    def reset(self):
+        for snake in self.turtles:
+            snake.goto(1000, 1000)
+        self.turtles.clear()
+        self.create_snake()
+        self.head = self.turtles[0]
+
     def add_body(self, position):
         turtle = Turtle(shape="square")
         turtle.penup()
@@ -29,8 +36,6 @@ class Snake:
     def extend(self):
         # increase body of snake
         self.add_body(self.turtles[-1].position())
-
-
 
     def move(self):
         # 2. Move snake body
