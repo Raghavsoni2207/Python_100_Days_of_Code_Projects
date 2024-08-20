@@ -10,7 +10,7 @@ class Scoreboard(Turtle):
     def __init__(self):
         super().__init__()
         self.score = 0
-        # Track of high score
+        # 8. Track of high score
         # self.high_score = 0
         with open("data.txt") as data:
             self.high_score = int(data.read())
