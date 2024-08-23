@@ -6,3 +6,6 @@ Steps to build the snake game :-
 5. Create a scoreboard.
 6. Detect collision with wall (Game over!).
 7. Detect collision with tail (Game over!).
+
+Increasing features
+8. Track of high score
